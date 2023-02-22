@@ -1,0 +1,8 @@
+.hero-title span{
+    color: #7b31d1;
+}
+.heroImg{
+    position: absolute;
+    width: 55%;
+    right: 65px;
+}

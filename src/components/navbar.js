@@ -7,7 +7,7 @@ const Navbar = () => {
             <section>
                 <nav className="flex items-center justify-between flex-wrap p-10">
                     <div className="flex items-center flex-shrink-0 text-black mr-6">
-                        <span className="pl-6 font-semibold text-xl tracking-tight">Webxspark</span>
+                        <span className="pl-6 font-semibold text-xl tracking-tight">Brand Logo</span>
                     </div>
                     <div className="block lg:hidden">
                         <button className="flex items-center px-3 py-2 border rounded text-black-500 border-gray-600 hover:text-black hover:border-black">
