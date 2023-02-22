@@ -16,11 +16,11 @@ const Landing = () => {
                         By taking advantage of current design <br /> trends, we keep your products up-to-date <br /> and offer better experiences.
                     </p>
                     <Row className="pt-6">
-                        <Col span={8}>
+                        <Col span={7}>
                             <SuperButton variant="type-2" style={{ height: "60px", width: "100%", }}>Start Now</SuperButton>
                         </Col>
                         <Col span={1}></Col>
-                        <Col span={8}>
+                        <Col span={7}>
                             <SuperButton style={{ height: "60px", width: "100%", }}>Learn More</SuperButton>
                         </Col>
                     </Row>
