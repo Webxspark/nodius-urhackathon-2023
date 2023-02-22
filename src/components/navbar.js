@@ -23,7 +23,7 @@ const Navbar = () => {
                             
                         </div>
                     </div>
-                    <div className="lg:block md:hidden sm:hidden">
+                    <div className="pr-4">
                         <SuperButton>Start Now</SuperButton>
                     </div>
                 </nav>
