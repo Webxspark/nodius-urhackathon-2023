@@ -6,7 +6,7 @@ const Navbar = () => {
             <section>
                 <nav className="flex items-center justify-between flex-wrap p-10">
                     <div className="flex items-center flex-shrink-0 text-black mr-6">
-                        <span className="pl-6 font-semibold text-xl tracking-tight">Nodius</span>
+                        <Link to="/"><span className="pl-6 font-semibold text-xl tracking-tight pointer">Nodius</span></Link>
                     </div>
                     <div className="block lg:hidden">
                         <button className="flex items-center px-3 py-2 border rounded text-black-500 border-gray-600 hover:text-black hover:border-black">
@@ -15,8 +15,8 @@ const Navbar = () => {
                     </div>
                     <div className="w-full block justify-center flex-grow lg:flex lg:items-center lg:w-auto">
                         <div className="text-md justify-center flex gap-8 lg:flex-grow">
-                            <a href="/" className=" text-black-200 hover:text-black mr-4">Works</a>
-                            <a href="/" className=" text-black-200 hover:text-black mr-4">Designers</a>
+                            <Link to="/" className=" text-black-200 hover:text-black mr-4">Discover</Link>
+                            <a href="/" className=" text-black-200 hover:text-black mr-4">Community</a>
                             <a href="/" className=" text-black-200 hover:text-black mr-4">About Us</a>
                             <a href="/" className=" text-black-200 hover:text-black mr-4">Contact</a>
                             

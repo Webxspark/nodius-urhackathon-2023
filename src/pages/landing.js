@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 import { useLoadingContext } from "react-router-loading";
 import { Row, Col, Divider } from "antd";
 import SuperButton from "../components/button";
-import heroImg from "../assets/img/hero.png";
+import heroImg from "../assets/img/hero1.png";
 const Landing = () => {
     const loadingStats = useLoadingContext();
     loadingStats.done()
@@ -26,7 +26,7 @@ const Landing = () => {
                     </Row>
                 </div>
                 <div className="w-full">
-                    <img src={heroImg} alt="hero" className="w-full heroImg" />
+                    <img src={heroImg} alt="hero" className="heroImg" />
                 </div>
             </div>
         </>
