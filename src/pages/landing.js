@@ -8,7 +8,7 @@ const Landing = () => {
     loadingStats.done()
     return (
         <>
-            <Navbar />
+            <Navbar activeId="contact-us" />
             <div className="grid grid-cols-2 h-screen justify-items-center">
                 <div className="w-full flex flex-col pt-20 pl-24">
                     <h1 className="hero-title text-5xl font-semibold leading-tight">We provide the <br /><span>best platform</span><br /> to connect with <br /><span>your community</span></h1>

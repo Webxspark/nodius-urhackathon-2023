@@ -10,6 +10,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} loading />
           <Route path="/discover" element={<PageUC />} loading />
+          <Route path="/community" element={<PageUC />} loading />
+          <Route path="/about-us" element={<PageUC />} loading />
+          <Route path="/contact-us" element={<PageUC />} loading />
         </Routes>
       </BrowserRouter>
     </div>

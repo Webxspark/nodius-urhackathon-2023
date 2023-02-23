@@ -15,10 +15,10 @@ const Navbar = () => {
                     </div>
                     <div className="w-full block justify-center flex-grow lg:flex lg:items-center lg:w-auto">
                         <div className="text-md justify-center flex gap-8 lg:flex-grow">
-                            <Link to="/" className=" text-black-200 hover:text-black mr-4">Discover</Link>
-                            <a href="/" className=" text-black-200 hover:text-black mr-4">Community</a>
-                            <a href="/" className=" text-black-200 hover:text-black mr-4">About Us</a>
-                            <a href="/" className=" text-black-200 hover:text-black mr-4">Contact</a>
+                            <Link to="/discover" className=" text-black-200 hover:text-black mr-4">Discover</Link>
+                            <Link to="/community" className=" text-black-200 hover:text-black mr-4">Community</Link>
+                            <Link to="/about-us" className=" text-black-200 hover:text-black mr-4">About Us</Link>
+                            <Link to="/contact-us" className=" text-black-200 hover:text-black mr-4">Contact</Link>
                             
                         </div>
                     </div>
