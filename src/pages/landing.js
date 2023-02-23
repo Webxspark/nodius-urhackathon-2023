@@ -11,17 +11,17 @@ const Landing = () => {
             <Navbar />
             <div className="grid grid-cols-2 h-screen justify-items-center">
                 <div className="w-full flex flex-col pt-20 pl-24">
-                    <h1 className="hero-title text-6xl font-medium leading-tight">We provide the <br /><span>best designers</span><br /> to help you</h1>
+                    <h1 className="hero-title text-5xl font-semibold leading-tight">We provide the <br /><span>best platform</span><br /> to connect with <br /><span>your community</span></h1>
                     <p className="text-left pt-12 text-xl">
-                        By taking advantage of current design <br /> trends, we keep your products up-to-date <br /> and offer better experiences.
+                        Empower yourself and collaborate with like-minded individuals on our decentralized platform
                     </p>
                     <Row className="pt-6">
-                        <Col span={7}>
-                            <SuperButton variant="type-2" style={{ height: "60px", width: "100%", }}>Start Now</SuperButton>
+                        <Col span={8}>
+                            <SuperButton variant="type-2" style={{ height: "60px", width: "100%", }}>Connect Wallet</SuperButton>
                         </Col>
                         <Col span={1}></Col>
                         <Col span={7}>
-                            <SuperButton style={{ height: "60px", width: "100%", }}>Learn More</SuperButton>
+                            <a href="https://webxspark.com" target={"_blank"}><SuperButton style={{ height: "60px", width: "100%", }}>Learn More</SuperButton></a>
                         </Col>
                     </Row>
                 </div>
