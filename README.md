@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Nodius - Web3 Community App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Web3 community app built with React.js, Ant Design, Tailwind CSS, and React Router. The app provides a platform for users to join or create communities based on shared interests or goals in the world of Web3 technology. It also offers features that help users manage and grow their digital assets, including storing, transferring, and managing crypto assets securely within the app.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Join or create communities based on shared interests or goals
+- Participate in events, discussions, and other activities relevant to your interests
+- Manage and grow your digital assets, including storing, transferring, and managing crypto assets securely within the app
+- Participate in decentralized exchanges and marketplaces to buy, sell, and trade NFTs or other digital assets
+- Accessible and responsive design, built with Ant Design and Tailwind CSS
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app was built with:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js: a popular JavaScript library for building user interfaces
+- Ant Design: a UI library with a set of high-quality React components
+- Tailwind CSS: a utility-first CSS framework for rapidly building custom designs
+- React Router: a popular routing library for React apps
 
-### `npm test`
+## Challenges we ran into
+We ran into a number of challenges while working on our project. At first, we planned out everything we were going to do, but later realized that it was not as easy at it seemed. It was hard to adapt into our newly formed team and a lot of schedule-clashes. We also enrolled in a few other technical events, which really reduced our breathing time. But in hindsight, we learnt that one can unleash their actual potential only in times like like these. Working on this project taught us time management, consistency and teamwork.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this app locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository: `git clone https://github.com/your-username/your-repo.git`
+2. Navigate to the project directory: `cd your-repo`
+3. Install dependencies: `npm install`
+4. Run the app: `npm start`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To deploy this app, you can use any hosting service that supports static website hosting. One option is to use Netlify:
 
-### `npm run eject`
+1. Create a new site on Netlify
+2. Connect your GitHub repository
+3. Set the build command to `npm run build`
+4. Set the publish directory to `build`
+5. Click "Deploy site"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions to this project are welcome! To contribute, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork this repository
+2. Create a new branch: `git checkout -b my-new-branch`
+3. Make changes and commit them: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-branch`
+5. Create a new pull request and describe your changes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits
 
-## Learn More
+This project was created by [Team Sparkeans](https://github.com/webxspark-devs).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed to Webxspark - [contact us](https://webxspark.com/contact%20us?ref=Nodius%20Licensing) for more details.
