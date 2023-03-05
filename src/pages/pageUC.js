@@ -10,13 +10,13 @@ function PageUC(){
     return(
         <> 
             <Navbar />
-            <div className="grid grid-cols-2 h-screen justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 h-screen justify-items-center">
                 <div className="w-full">
                     <img src={heroImg} alt="hero" className="" />
                 </div>
-                <div className="w-full flex flex-col pt-20 pl-24">
-                    <h1 className="hero-title text-4xl font-semibold leading-tight">We're working hard to bring you something <span>awesome</span>. Check back soon!</h1>
-                    <p className="text-left pt-12 text-xl">
+                <div className="w-full flex flex-col pt-20 pl-8 md:pl-14 lg:pl-24">
+                    <h1 className="hero-title text-3xl md:text-4xl font-semibold leading-tight">We're working hard to bring you something <span>awesome</span>. Check back soon!</h1>
+                    <p className="text-left pt-12 text-lg md:text-xl">
                         Thank you for visiting our website! We're currently in the process of building something great for you.<br /><br />We promise that it'll be worth the wait :)
                     </p>
                     <Row className="pt-6">
