@@ -26,8 +26,8 @@ We ran into a number of challenges while working on our project. At first, we pl
 
 To run this app locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory: `cd your-repo`
+1. Clone this repository: `git clone https://github.com/Webxspark/nodius-urhackathon-2023.git`
+2. Navigate to the project directory: `cd nodius-urhackathon-2023`
 3. Install dependencies: `npm install`
 4. Run the app: `npm start`
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
